@@ -1,1 +1,1 @@
-You've completed your first Katacoda scenario, ooo!
+You've completed your first Katacoda scenario, ooo0!
