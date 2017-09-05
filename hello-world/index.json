@@ -15,7 +15,7 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal to play with iExec",
-    "hideintro": false,
+    "hideintro": true,
     "hidefinish": true
   },
   "backend": {
