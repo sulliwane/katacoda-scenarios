@@ -1,7 +1,4 @@
-This is your first step.
+# Step 1 - Install iexec
+You need to have [node.js](https://nodejs.org/en/) installed on your machine. Then:
 
-## Task
-
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
+`npm install iexec`{{execute}}

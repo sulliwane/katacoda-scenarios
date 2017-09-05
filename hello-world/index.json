@@ -5,15 +5,20 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Install iexec",
       "text": "step1.md"
+    }, {
+      "title": "Step 2 - iexec register",
+      "text": "step2.md"
     }]
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
+    "hideintro": false,
+    "hidefinish": true
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "node6"
   }
 }
