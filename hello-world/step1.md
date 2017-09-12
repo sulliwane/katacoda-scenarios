@@ -21,3 +21,15 @@ check iexec help:
 and iexec version:
 
 `iexec --version`{{execute}}
+
+# iexec init
+
+This initializes a basic iexec dapp for you. Let's initialize the iexec "hello-world" dapp:
+
+`iexec init hello-world`{{execute}}
+
+# iexec migrate
+
+This call truffle to migrate the dapp on a blockchain:
+
+`iexec migrate --network ropsten`{{execute}}
