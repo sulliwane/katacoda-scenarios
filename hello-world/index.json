@@ -13,7 +13,7 @@
     }]
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal to play with iExec",
     "hideintro": true,
     "hidefinish": true
