@@ -23,5 +23,10 @@
   },
   "backend": {
     "imageid": "node6"
-  }
+  },"intro": {
+      "text": "intro.md"
+  },
+    "finish": {
+	"text": "finish.md"
+    }
 }
