@@ -1,16 +1,8 @@
+
+#Install iexec-sdk
+
+
 Pre-requisite: You need to have [node.js](https://nodejs.org/en/) installed on your machine.
-
-# Install and run your first application with iexec
-
-In this tutorial you will learn how to install and use the iexec software development kit (iexec-sdk).
-
-You will create your first application HelloWorld that does a very simple off-chain computation (print 'helloworld').
-
-Then you will create a smart contract and deploy it on the Ethereum blockchain.
-
-At the end of the tutorial, you will see how your smart contract can now interact with iExec oracle.
-
-Let's get started!
 
 `npm -g install iexec`{{execute}}
 
@@ -22,14 +14,21 @@ and iexec version:
 
 `iexec --version`{{execute}}
 
-# iexec init
+# Install and run your first application with iexec
+
+Let's get started!
 
 This initializes a basic iexec dapp for you. Let's initialize the iexec "hello-world" dapp:
 
 `iexec init hello-world`{{execute}}
 
-# iexec migrate
+This will populate your directory with a template that can be use for any application.
 
-This call truffle to migrate the dapp on a blockchain:
+For the rest of this tutorial, we will work with the factorial function.
 
-`iexec migrate --network ropsten`{{execute}}
+`iexec init factorial`{{execute}}
+
+Factorial is already installed and deployed in the iexec network. 
+
+You can see the smart contract here (vizualize) 
+
